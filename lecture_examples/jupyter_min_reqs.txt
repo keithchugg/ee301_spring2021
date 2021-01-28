@@ -1,0 +1,13 @@
+ipykernel 
+ipython 
+ipython-genutils 
+ipywidgets 
+jupyter 
+jupyter-client 
+jupyter-console 
+jupyter-core 
+matplotlib
+notebook
+numpy
+PyQt5
+qtconsole
