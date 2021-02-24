@@ -113,7 +113,7 @@ plot_freq_respone(b_butter, a_butter, freq_tag='(cycles/day')
 
 plt.figure()
 plt.plot(y7, color = 'b', label='7 day average') # linewidth=1,
-plt.plot(y_butter, color = 'r', label='butterowrth')
+plt.plot(y_butter, color = 'r', label='butterworth')
 plt.legend()
 plt.grid(linestyle=':')
 # plt.xlim([250, 330])
