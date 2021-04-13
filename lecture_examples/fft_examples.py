@@ -37,7 +37,7 @@ def plot_DFT_DTFT(x, use_db=False, use_direct_dtft=False):
     ax[0].legend()
 
     ax[1].stem(np.abs(X), label=f'DFT N = {N}')
-    ax[1].set_xlabel('n')
+    ax[1].set_xlabel('k')
     ax[1].legend()
 
     mag_Xr = np.abs(Xr)
@@ -102,7 +102,7 @@ def hanning_example(N, use_db=True):
 def AR1_example(N, alpha):
     n = np.arange(N)
     x = alpha ** n
-    plot_DFT_DTFT(x)
+    plot_DFT_DTFT_AR1(x)
 
 
 ################################
